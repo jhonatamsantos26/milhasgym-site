@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MilhasGym</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="flex justify-between items-center px-6 py-4 shadow-md">
+    <h1 class="text-2xl font-bold text-blue-700">MILHASGYM</h1>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#como-funciona" class="hover:text-blue-600">Como Funciona</a>
+      <a href="#academias" class="hover:text-blue-600">Academias</a>
+      <a href="#parcerias" class="hover:text-blue-600">Parcerias</a>
+      <button class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">Criar Conta</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 px-6 py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Transforme seus pontos em treinos</h2>
+    <p class="text-lg text-gray-600 mb-6">Use Livelo, Esfera e outros programas para treinar nas melhores academias</p>
+    <button class="bg-orange-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-orange-600">Criar Conta Grátis</button>
+  </section>
+
+  <!-- Como Funciona -->
+  <section id="como-funciona" class="px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-10">Como Funciona</h3>
+    <div class="grid md:grid-cols-4 gap-10">
+      <div>
+        <div class="text-5xl mb-4">👤</div>
+        <p class="font-semibold">Crie sua conta gratuita</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">💳</div>
+        <p class="font-semibold">Conecte seu programa de pontos<br />(ou compre créditos)</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">📍</div>
+        <p class="font-semibold">Escolha uma academia próxima</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">📲</div>
+        <p class="font-semibold">Clique em Check-in no app e comece o treino</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academias Parceiras -->
+  <section id="academias" class="px-6 py-16 text-center bg-gray-50">
+    <h3 class="text-3xl font-bold mb-10">Academias Parceiras</h3>
+    <div class="flex justify-center gap-10 flex-wrap text-xl font-medium text-gray-700">
+      <span class="text-blue-700">SkyFit</span>
+      <span class="text-black">Panobianco</span>
+      <span class="text-red-600">RedFit</span>
+      <span>Estúdios de crossfit</span>
+      <span>Yoga</span>
+    </div>
+    <button class="mt-8 text-blue-600 underline">Ver todas as academias</button>
+  </section>
+
+  <!-- Transferência de Pontos -->
+  <section id="parcerias" class="px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-10">Ganhe e Transfira Pontos</h3>
+    <p class="text-lg text-gray-600 mb-6">Você pode transferir pontos de plataformas como:</p>
+    <div class="flex justify-center gap-8 flex-wrap text-xl font-semibold">
+      <span class="text-purple-600">Livelo</span>
+      <span class="text-blue-600">Esfera</span>
+      <span class="text-yellow-600">Dotz</span>
+      <span class="text-green-600">Méliuz</span>
+    </div>
+    <p class="mt-6 text-gray-700">Ou compre diretamente no app com PIX ou Cartão de Crédito e ganhe bônus em campanhas especiais.</p>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="px-6 py-16 bg-gray-100 text-center">
+    <h3 class="text-3xl font-bold mb-10">O que dizem nossos usuários</h3>
+    <div class="grid md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="italic">“Usei pontos parados do cartão e consegui treinar em outra cidade. Incrível!”</p>
+        <p class="font-bold mt-4">Carlos A. – São Paulo/SP</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="italic">“Perfeito pra quem viaja e quer liberdade pra treinar sem plano fixo.”</p>
+        <p class="font-bold mt-4">Fernanda M. – Rio de Janeiro/RJ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-10">Perguntas Frequentes</h3>
+    <div class="max-w-4xl mx-auto text-left space-y-6">
+      <div>
+        <h4 class="font-semibold text-lg">Posso usar pontos de qualquer programa?</h4>
+        <p class="text-gray-600">Atualmente trabalhamos com Livelo, Esfera, Dotz e Méliuz. Novas integrações estão a caminho!</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg">Preciso pagar mensalidade?</h4>
+        <p class="text-gray-600">Não! Você só paga quando quiser usar pontos ou comprar créditos. Liberdade total.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg">As academias recebem normalmente?</h4>
+        <p class="text-gray-600">Sim. As unidades parceiras recebem em até 15 dias após o check-in do usuário.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-6 py-10 bg-gray-900 text-gray-300 text-sm text-center">
+    <p>© 2025 MilhasGym. Todos os direitos reservados.</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" class="hover:underline">Política de Privacidade</a>
+      <a href="#" class="hover:underline">Termos de Uso</a>
+      <a href="#" class="hover:underline">Ajuda</a>
+    </div>
+  </footer>
+</body>
+</html>
